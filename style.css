@@ -183,23 +183,27 @@ body{
     letter-spacing: 1px;
 }
 .aboutMe2{
-    height: 600px;
     display: flex;
     max-width: 990px;
     align-items: center;
     margin: auto;
+    overflow: hidden;
+    height: 700px;
     justify-content: space-around;
 }
 .aboutMe2 .praragraph_aboutMe2{
     width: 500px;
+    overflow: hidden;
 }
 .aboutMe2 .praragraph_aboutMe2 h1{
     margin-bottom: 15px;
 }
 .aboutMe2 .praragraph_aboutMe2 p{
+    padding: 5px;
     color: rgb(53, 77, 77);
     font-weight: 500;
     letter-spacing: 1px;
+    overflow: hidden;
     line-height: 26px;
 }
 .skills2{
@@ -208,12 +212,23 @@ body{
 }
 .div1{
     display: flex;
+    height: 100%;
+    padding: 5px;
+    align-items: center;
+    border-radius: 100px;
 }
 .headSkill h1{
     margin-bottom: 20px;
+    height: 100%;
+    padding: 10px;
+    overflow: hidden;
 }
 .div1 p{
-    padding: 15px;
+    padding: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
     margin: 4px;
     color: gray;
     border-radius: 10px;
@@ -288,6 +303,7 @@ body{
     justify-content: space-around;
     background-color: black;
     color: white;
+    
 }
 .paragraph_contact1 h1{
     padding-bottom: 20px;
@@ -307,6 +323,7 @@ body{
 .whats1 i{
     color: green;
     font-size: 20px;
+    overflow: hidden;
     display: flex;
     margin-right: 10px;
     align-items: center;
@@ -323,7 +340,7 @@ body{
     }
     .aboutMe2{
         overflow: hidden;
-        height:100vh;
+        height:100%;
         flex-direction: column;
     }
     .praragraph_aboutMe2{
@@ -336,16 +353,15 @@ body{
     .praragraph_aboutMe2 h1{
         font-size: 20px;
         padding: 20px;
+        display: flex;
         overflow: hidden;
     }
     .praragraph_aboutMe2 p{
         width: 300px;
         padding-bottom: 40px;
         overflow: scroll;
-        height: 900px;
     }
     .headSkill {
-        height: 40%;
         overflow: hidden;
     }
     .div1{
